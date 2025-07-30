@@ -1,2 +1,3 @@
 # Beecrowd
-Exercícios do Beecrowd na linguagem C
+
+## [Iniciante (334/334)](https://github.com/nicolascaseiro/Beecrowd/tree/main/Iniciante)
