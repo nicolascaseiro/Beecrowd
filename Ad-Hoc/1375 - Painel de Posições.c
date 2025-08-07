@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+#define MAXN 1001
+
+int vetor[MAXN], A[MAXN], B[MAXN], n;
+
+int main() {
+    
+    while (scanf("%d", &n) == 1 && n) {
+        for (int i = 1; i <= n; i++) {
+            scanf("%d %d", &A[i], &B[i]);
+            vetor[i] = -1;
+        }
+
+        int impossivel = 0;
+        for (int i = 1; i <= n; i++) {
+            int novo = i + B[i];
+            if (novo <= 0 || novo > n || vetor[novo] != -1) {
+                impossivel = 1;
+                break;
+            }
+            vetor[novo] = A[i];
+        }
+
+        if (impossivel) {
+            printf("-1\n");
+        } else {
+            printf("%d", vetor[1]);
+            for (int i = 2; i <= n; i++) {
+                printf(" %d", vetor[i]);
+            }
+            printf("\n");
+        }
+    }
+    return 0;
+}
