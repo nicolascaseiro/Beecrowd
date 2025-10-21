@@ -1,5 +1,7 @@
-# Beecrowd
+# Beecrowd - Exercícios em C
 
-Exercícios do Beecrowd em C
+## 📂 Categorias
 
-## [Iniciante (334/334)](https://github.com/nicolascaseiro/Beecrowd/tree/main/Iniciante)
+- [📄 Iniciante](https://github.com/nicolascaseiro/Beecrowd/tree/main/Iniciante)
+
+- [📄 Ad-Hoc](https://github.com/nicolascaseiro/Beecrowd/tree/main/Ad-Hoc)
